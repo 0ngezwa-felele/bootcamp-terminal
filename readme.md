@@ -1,1 +1,1 @@
-[![Build Status](https://www.travis-ci.com/0ngezwa-felele/bootcamp-terminal.svg?branch=main)](https://www.travis-ci.com/0ngezwa-felele/bootcamp-terminal)
+[![Build Status](https://travis-ci.com/0ngezwa-felele/bootcamp-terminal.svg?branch=master)](https://travis-ci.com/0ngezwa-felele/bootcamp-terminal)
