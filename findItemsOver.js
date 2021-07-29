@@ -1,5 +1,5 @@
 module.exports=function(productList,threshold){
-	console.log(threshold);	
+
   var productList1 = [];
 	for(var i=0;i<productList.length; i++){
       if(productList[i].qty > threshold){

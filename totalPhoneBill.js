@@ -1,5 +1,5 @@
 module.exports=function(phone){
-    console.log(phone)
+    // console.log(phone)
     var callNum = phone.split(",");
     var counter = 0
     for( var i = 0; i<callNum.length; i++){

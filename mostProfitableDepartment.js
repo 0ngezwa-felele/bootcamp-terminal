@@ -1,5 +1,5 @@
 module.exports=function(productList){
-    console.log(productList)
+    // console.log(productList)
    var salesDataMap = {};
    var productList1 = [];
    //mapping the data and its as departments and sales total
@@ -13,7 +13,7 @@ module.exports=function(productList){
            }
    }
      // Loop the map to find the bigger department value
-   console.log(salesDataMap);
+  //  console.log(salesDataMap);
     var currentMaxSalesDepartment = 0;
    var theDepart = "";
    for (var salesDataDepartment in salesDataMap) {
@@ -23,7 +23,7 @@ module.exports=function(productList){
             theDepart = salesDataDepartment;
         }
    }
-    console.log(theDepart);
+    // console.log(theDepart);
    return theDepart;
  }
  
