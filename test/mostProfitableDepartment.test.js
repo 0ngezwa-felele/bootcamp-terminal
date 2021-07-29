@@ -21,14 +21,10 @@ describe('mostProfitableDepartment function' , function(){
         {department: 'outdoor', sales: 12006, day: 'Friday'},
         {department: 'carpentry', sales: 16109, day: 'Friday'}
     ];
-    it('determine which of their departments are the most profitable and which day of the week is the most profitable' , function(){
+    it('determine which of their departments are the most profitable' , function(){
        
 
         assert.deepEqual(mostProfitableDepartment(salesData),'outdoor');
     });
-        it('determine the department that is less profitable' , function(){
-       
-
-        assert.deepEqual(mostProfitableDepartment('carpentry'),'');
-    });
+        
 });
