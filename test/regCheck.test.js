@@ -20,9 +20,7 @@ describe('regCheck function' , function(){
     assert.equal(regCheck('DV 23 NB MP', 'MP'),true);
 
 });
-    it('should return false if the reg number is not from GP,L,EC,MP' , function(){
-      assert.equal(regCheck("123 CA",'ZN','ZN'),false);
-  });
+    
   
   it('should return false if the reg number is not from GP' , function(){
     assert.equal(regCheck("123 CA",'ZN','ZN'),false);
