@@ -24,4 +24,19 @@ describe('regCheck function' , function(){
       assert.equal(regCheck("123 CA",'ZN','ZN'),false);
   });
   
+  it('should return false if the reg number is not from GP' , function(){
+    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
+});
+
+it('should return false if the reg number is not from L' , function(){
+    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
+});
+
+it('should return false if the reg number is not from EC' , function(){
+    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
+});
+
+it('should return false if the reg number is not from MP' , function(){
+    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
+});
   });
