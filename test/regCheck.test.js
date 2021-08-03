@@ -20,21 +20,8 @@ describe('regCheck function' , function(){
     assert.equal(regCheck('DV 23 NB MP', 'MP'),true);
 
 });
-    
-  
-  it('should return false if the reg number is not from GP' , function(){
-    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
-});
+it('should check  if a registration number is for GP, L, EC, MP registration plates and returns false if not' , function(){
+    assert.equal(false,regCheck("CJ 1992", 'CA'));
 
-it('should return false if the reg number is not from L' , function(){
-    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
 });
-
-it('should return false if the reg number is not from EC' , function(){
-    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
 });
-
-it('should return false if the reg number is not from MP' , function(){
-    assert.equal(regCheck("123 CA",'ZN','ZN'),false);
-});
-  });
